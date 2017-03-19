@@ -8,3 +8,9 @@ import './home-page.html';
 
 import './list-stuff-page.html';
 import './list-stuff-page.js';
+
+import './main-feed-page.html';
+import './main-feed-page.js';
+
+import './add-adventure-page.html';
+import './add-adventure-page.js';

@@ -8,17 +8,17 @@ FlowRouter.route('/', {
   },
 });
 
-FlowRouter.route('/list', {
-  name: 'List_Stuff_Page',
+FlowRouter.route('/main', {
+  name: 'Main_Feed_Page',
   action() {
-    BlazeLayout.render('App_Body', { main: 'List_Stuff_Page' });
+    BlazeLayout.render('App_Body', { main: 'Main_Feed_Page' });
   },
 });
 
 FlowRouter.route('/add', {
-  name: 'Add_Stuff_Page',
+  name: 'Add_Adventure_Page',
   action() {
-    BlazeLayout.render('App_Body', { main: 'Add_Stuff_Page' });
+    BlazeLayout.render('App_Body', { main: 'Add_Adventure_Page' });
   },
 });
 
