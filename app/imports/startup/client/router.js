@@ -22,6 +22,20 @@ FlowRouter.route('/add', {
   },
 });
 
+FlowRouter.route('/Item', {
+  name: 'Adventure_Item_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Adventure_Item_Page' });
+  },
+});
+
+FlowRouter.route('/profile', {
+  name: 'Profile_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Profile_Page' });
+  },
+});
+
 FlowRouter.route('/stuff/:_id', {
   name: 'Edit_Stuff_Page',
   action() {

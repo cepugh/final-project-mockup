@@ -1,12 +1,95 @@
-<template name="Add_Stuff_Page">
-  {{#If_Logged_In}}
-    <div style="padding-top: 20px" class="ui text container">
-      {{> quickForm
-      collection=stuffCollection
-      template="semanticUI"
-      id="AddStuffForm"
-      type="insert"
-      resetOnSuccess=true}}
+<template name="Profile_Page">
+  <div style="margin-top: 50px" class="ui internally celled grid">
+    <div class="row">
+      <div class="four wide column">
+        <h2>Welcome, User123!</h2>
+        <img style="height: 250px" class="ui fluid image" src="/images/profile.jpg">
+      </div>
+      <div class="nine wide column">
+        <div style="margin-top: 10px" class="ui segment">
+          <h2>Your Items</h2>
+          <table class="ui celled padded table">
+            <thead>
+            <tr>
+              <th class="single line">Title</th>
+              <th>Category</th>
+              <th>Tags</th>
+              <th>Ratings</th>
+              <th>Snippet</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td class="single line">
+                Kuliouou Ridge Trail
+              </td>
+              <td class="single line">
+                Hike
+              </td>
+              <td class="single line">
+                Intermediate, dog-friendly
+              </td>
+              <td>
+                <div class="ui star rating" data-rating="3" data-max-rating="3"></div>
+              </td>
+              <td>Short summary blurb...
+              </td>
+            </tr>
+            <tr>
+              <td class="single line">Lanikai Pillboxes Hike</td>
+              <td class="single line">
+                Hike
+              </td>
+              <td class="single line">
+                Easy, Kid-friendly
+              </td>
+              <td>
+                <div class="ui star rating" data-rating="3" data-max-rating="3"></div>
+              </td>
+              <td>Creatine is the reference compound for power improvement, with numbers from one meta-analysis to
+                assess
+                potency
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div style="margin-top: 100px" class="ui segment">
+          <h2>Your Bucket List</h2>
+          <table class="ui celled padded table">
+            <thead>
+            <tr>
+              <th class="single line">Title</th>
+              <th>Category</th>
+              <th>Tags</th>
+              <th>Ratings</th>
+              <th>Snippet</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td class="single line">
+                Opal Thai
+              </td>
+              <td class="single line">
+                Restaurant
+              </td>
+              <td class="single line">
+                Thai food, North Shore
+              </td>
+              <td>
+                <div class="ui star rating" data-rating="3" data-max-rating="3"></div>
+              </td>
+              <td>Short summary blurb...
+              </td>
+            </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </div>
     </div>
-  {{/If_Logged_In}}
+
+  </div>
 </template>

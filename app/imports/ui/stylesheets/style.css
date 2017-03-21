@@ -1,5 +1,6 @@
 body {
   padding-top: 61px;  /* Move body of page below navbar. */
+  background-color: grey;
 }
 
 .welcome {
@@ -8,4 +9,8 @@ body {
   left: 0;
   width: 100%;
   color: ghostwhite;
+}
+
+.mainFeed {
+  background-color: purple;
 }

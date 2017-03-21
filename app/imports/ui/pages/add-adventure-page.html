@@ -1,65 +1,77 @@
 <template name="Add_Adventure_Page">
-  <div style="margin-top: 25px" class="ui container">
+  <div style="margin-top: 100px" class="ui container">
     <form class="ui form">
-      <h4 class="ui dividing header">Add Adventure</h4>
-      <div class="field">
-        <label>Title</label>
-        <div class="two fields">
-          <div class="field">
-            <input type="text" name="title" placeholder="...">
-          </div>
-          <div class="field">
-            <input type="text" name="last" placeholder="Last Name">
-          </div>
+      <h3 class="ui dividing header">Add Hike</h3>
+      <div class="fields">
+        <div class="seven wide field">
+          <label>Title</label>
+          <input type="text">
         </div>
-      </div>
-
-      <div class="field">
-        <label>Text</label>
-        <textarea></textarea>
-      </div>
-
-      <div class="field">
-        <label>Telephone/Email</label>
-        <div class="two fields">
+        <div class="three wide field">
+          <label>Type</label>
           <div class="field">
-            <input type="text" name="telephone" placeholder="XXX-XXX-XXXX">
-          </div>
-          <div class="field">
-            <select class="ui fluid dropdown">
-              <option value="Hike">Hike</option>
-              <option value="Hike">Beach</option>
-              <option value="Hike">Restraunt</option>
+            <select class="ui fluid search dropdown">
+              <option>Ridge</option>
+              <option>Coastal</option>
+              <option>Valley</option>
             </select>
           </div>
         </div>
+        <div class="six wide field">
+          <label>Difficulty</label>
+          <div class="field">
+            <select class="ui fluid search dropdown">
+              <option>Stroll</option>
+              <option>Easy</option>
+              <option>Easy/Intermediate</option>
+              <option>Intermediate</option>
+              <option>Hard</option>
+              <option>Really Hard</option>
+              <option>Extreme</option>
+            </select>
+          </div>
+        </div>
+        <div class="four wide field">
+          <label>Length</label>
+          <input type="text">
+        </div>
       </div>
-      <button class="ui button" type="submit">Submit</button>
+
+      <div class="seven wide field">
+        <label>Add Tags</label>
+        <input type="text">
+      </div>
+      <div class="field">
+        <label>About</label>
+        <textarea></textarea>
+      </div>
+
+      <div class="ui button">Submit</div>
     </form>
   </div>
-<!--  <div style="margin-top: 25px" class="ui container">
-    <form class="ui form contact-data-form {{ errorClass }}">
-      <h4 class="ui dividing header">Add Contact</h4>
-      <div class="field">
-        <div class="two fields">
-          {{> Text_Form_Control label="First" placeholder="First Name" required=true errorMessage=(fieldError "first")}}
-          {{> Text_Form_Control label="Last" required=true errorMessage=(fieldError "last")}}
-        </div>
-        {{> Text_Form_Control label="Address" required=true errorMessage=(fieldError "address")}}
+  <!--  <div style="margin-top: 25px" class="ui container">
+      <form class="ui form contact-data-form {{ errorClass }}">
+        <h4 class="ui dividing header">Add Contact</h4>
         <div class="field">
           <div class="two fields">
-            {{> Text_Form_Control label="Telephone" required=true errorMessage=(fieldError "telephone")}}
-            {{> Text_Form_Control label="Email" required=true errorMessage=(fieldError "email")}}
+            {{> Text_Form_Control label="First" placeholder="First Name" required=true errorMessage=(fieldError "first")}}
+            {{> Text_Form_Control label="Last" required=true errorMessage=(fieldError "last")}}
           </div>
+          {{> Text_Form_Control label="Address" required=true errorMessage=(fieldError "address")}}
           <div class="field">
-            {{> Select_Form_Control label="Group" required=true options=groupChoice errorMessage=(fieldError "group") }}
-          </div>
-          <div class="field">
-            {{> Checkbox_Field label="Favorite" checked=false}}
+            <div class="two fields">
+              {{> Text_Form_Control label="Telephone" required=true errorMessage=(fieldError "telephone")}}
+              {{> Text_Form_Control label="Email" required=true errorMessage=(fieldError "email")}}
+            </div>
+            <div class="field">
+              {{> Select_Form_Control label="Group" required=true options=groupChoice errorMessage=(fieldError "group") }}
+            </div>
+            <div class="field">
+              {{> Checkbox_Field label="Favorite" checked=false}}
+            </div>
           </div>
         </div>
-      </div>
-      <button class="ui button" type="submit">Submit</button>
-    </form>
-  </div>-->
+        <button class="ui button" type="submit">Submit</button>
+      </form>
+    </div>-->
 </template>

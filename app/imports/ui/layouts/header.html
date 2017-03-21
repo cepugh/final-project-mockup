@@ -1,9 +1,10 @@
 <template name="Header">
-<!--  <img style="max-height: 600px" class="ui fluid image" src="/images/adventure.jpg">-->
     <div class="ui top fixed borderless menu">
-      <a class="item" href="{{pathFor 'Home_Page'}}"><h1>Manoa Adventures</h1></a>
+      <a class="item" href="{{pathFor 'Home_Page'}}"><h1>UH Manoa Adventures</h1></a>
         <a class="{{ isActiveRoute 'Main_Feed_Page'}} item" href="{{ pathFor 'Main_Feed_Page' }}">Adventures</a>
         <a class="{{ isActiveRoute 'Add_Adventure_Page'}} item" href="{{ pathFor 'Add_Adventure_Page' }}">Add Adventure</a>
+      <a class="{{ isActiveRoute 'Profile_Page'}} item" href="{{ pathFor 'Profile_Page' }}">Profile Page</a>
+      <a class="{{ isActiveRoute 'Adventure_Item_Page'}} item" href="{{ pathFor 'Adventure_Item_Page' }}">Item Page</a>
 
       <a href="#" class="right aligned item">{{> loginButtons align="right"}} </a>
   </div>
