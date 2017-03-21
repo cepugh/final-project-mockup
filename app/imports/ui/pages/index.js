@@ -19,5 +19,12 @@ import './add-adventure-page.js';
 import './profile-page.html';
 import './profile-page.js';
 
+import './about-us-page.html';
+
+import './create-profile-page.html';
+
+import './admin-page.html';
+
+
 import './adventure-item-page.html';
 import './adventure-item.js';

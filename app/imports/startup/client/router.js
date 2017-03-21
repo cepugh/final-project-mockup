@@ -22,7 +22,7 @@ FlowRouter.route('/add', {
   },
 });
 
-FlowRouter.route('/Item', {
+FlowRouter.route('/item', {
   name: 'Adventure_Item_Page',
   action() {
     BlazeLayout.render('App_Body', { main: 'Adventure_Item_Page' });
@@ -35,6 +35,27 @@ FlowRouter.route('/profile', {
     BlazeLayout.render('App_Body', { main: 'Profile_Page' });
   },
 });
+FlowRouter.route('/about', {
+  name: 'About_Us_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'About_Us_Page' });
+  },
+});
+FlowRouter.route('/create-profile', {
+  name: 'Create_Profile_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Create_Profile_Page' });
+  },
+});
+
+FlowRouter.route('/admin', {
+  name: 'Admin_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Admin_Page' });
+  },
+});
+
+
 
 FlowRouter.route('/stuff/:_id', {
   name: 'Edit_Stuff_Page',

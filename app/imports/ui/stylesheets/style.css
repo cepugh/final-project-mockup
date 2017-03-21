@@ -2,15 +2,3 @@ body {
   padding-top: 61px;  /* Move body of page below navbar. */
   background-color: grey;
 }
-
-.welcome {
-  position: absolute;
-  top: 30px;
-  left: 0;
-  width: 100%;
-  color: ghostwhite;
-}
-
-.mainFeed {
-  background-color: purple;
-}
