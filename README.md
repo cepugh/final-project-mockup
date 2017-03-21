@@ -14,3 +14,12 @@ Clicking on the "read more" link will open up the full item page, with some basi
 
 Here a user can submit their own adventure, which will be reviewed by an admin before being added to avoid duplicate items. This one is for a hike, but an initial dropdown will decide what form the user gets to fill out.
 <img width="1273" alt="screen shot 2017-03-21 at 7 04 51 am" src="https://cloud.githubusercontent.com/assets/25087813/24161389/5ca9e4ac-0e08-11e7-8512-cffe70f4ce95.png">
+
+Here is the user's profile page where they can see the items they have submitted (add status later) and create a "bucket list" to save items they would like to do for later.
+<img width="1455" alt="screen shot 2017-03-21 at 7 05 03 am" src="https://cloud.githubusercontent.com/assets/25087813/24161715/445c17ac-0e09-11e7-8ed7-5cf75edb8168.png">
+
+
+<img width="1453" alt="screen shot 2017-03-21 at 7 35 16 am" src="https://cloud.githubusercontent.com/assets/25087813/24161628/15d5bc08-0e09-11e7-8a65-3fdbddf2c012.png">
+<img width="1454" alt="screen shot 2017-03-21 at 7 35 23 am" src="https://cloud.githubusercontent.com/assets/25087813/24161631/1847d3d6-0e09-11e7-9643-c90368b12afc.png">
+<img width="1448" alt="screen shot 2017-03-21 at 7 35 33 am" src="https://cloud.githubusercontent.com/assets/25087813/24161639/1aee001a-0e09-11e7-96ad-984725f97563.png">
+
