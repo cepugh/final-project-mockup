@@ -11,7 +11,7 @@ If the user doesn't have an account, they will be directed to the create profile
 
 Here is the main adventure item feed. It will eventually have filter functionality to filter by category, tags or number of likes.
 <img width="1446" alt="screen shot 2017-03-22 at 8 21 22 pm" src="https://cloud.githubusercontent.com/assets/25087813/24234652/981b2f6a-0f3d-11e7-9393-97fa85a04e13.png">
-Here is an alternative version to the cards. I am not sure if I like the cards, but they do seem easier to implement with full functionality.
+
 
 Here a user can submit their own adventure, which will be reviewed by an admin before being added to avoid duplicate items. This one is for a hike, but an initial dropdown will decide what form the user gets to fill out. Some of the fields will be used to auto-create tags that can be filtered on in the main adventure feed page.
 <img width="1437" alt="screen shot 2017-03-22 at 8 21 35 pm" src="https://cloud.githubusercontent.com/assets/25087813/24234656/9e1761f4-0f3d-11e7-8aa5-be82dd65511e.png">
