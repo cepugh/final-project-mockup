@@ -6,6 +6,9 @@ The landing page will link to the login page (eventually), the contact us page, 
 After a user is logged in they will go to their home page. This is the user's profile page where they can see the items they have submitted (add status later) and create a "bucket list" to save items they would like to do for later.
 <img width="1423" alt="screen shot 2017-03-22 at 8 22 06 pm" src="https://cloud.githubusercontent.com/assets/25087813/24234663/a748707e-0f3d-11e7-843a-0db327e6b148.png">
 
+If the user doesn't have an account, they will be directed to the create profile page to create an account.
+<img width="1445" alt="screen shot 2017-03-22 at 8 22 52 pm" src="https://cloud.githubusercontent.com/assets/25087813/24234691/bd11a84e-0f3d-11e7-91a1-e04584f39cee.png">
+
 Here is the main adventure item feed. It will eventually have filter functionality to filter by category, tags or number of likes.
 <img width="1446" alt="screen shot 2017-03-22 at 8 21 22 pm" src="https://cloud.githubusercontent.com/assets/25087813/24234652/981b2f6a-0f3d-11e7-9393-97fa85a04e13.png">
 Here is an alternative version to the cards. I am not sure if I like the cards, but they do seem easier to implement with full functionality.
@@ -17,8 +20,10 @@ This is a page for a specific adventure item. This will provide full details and
 <img width="1432" alt="screen shot 2017-03-22 at 8 22 22 pm" src="https://cloud.githubusercontent.com/assets/25087813/24234670/af46b6fa-0f3d-11e7-8b7a-8a3c2f8b7eb7.png">
 <img width="1197" alt="screen shot 2017-03-22 at 8 22 34 pm" src="https://cloud.githubusercontent.com/assets/25087813/24234682/b666eb08-0f3d-11e7-92c6-467ee6fb2d7c.png">
 
+About page
 <img width="1439" alt="screen shot 2017-03-22 at 8 22 43 pm" src="https://cloud.githubusercontent.com/assets/25087813/24234688/ba926fe0-0f3d-11e7-810b-8e50e73e537d.png">
-<img width="1445" alt="screen shot 2017-03-22 at 8 22 52 pm" src="https://cloud.githubusercontent.com/assets/25087813/24234691/bd11a84e-0f3d-11e7-91a1-e04584f39cee.png">
+
+Admin page will eventually have a place where the admin can approve, deny or contact the submitter for each submission.
 <img width="1438" alt="screen shot 2017-03-22 at 8 23 01 pm" src="https://cloud.githubusercontent.com/assets/25087813/24234695/c05a7b34-0f3d-11e7-892e-dca37bc6dc27.png">
 
 
